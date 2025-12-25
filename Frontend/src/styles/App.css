@@ -1,0 +1,135 @@
+.equipment-page {
+  background: white;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.equipment-page h1 {
+  color: #2c3e50;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  border-bottom: 3px solid #3498db;
+  padding-bottom: 10px;
+}
+
+.equipment-form {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  border: 1px solid #dee2e6;
+}
+
+.equipment-form h2 {
+  color: #495057;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.equipment-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.equipment-form input,
+.equipment-form select {
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.equipment-form input:focus,
+.equipment-form select:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+.equipment-form .error {
+  color: #dc3545;
+  font-size: 0.9rem;
+  margin-top: -10px;
+}
+
+.equipment-form button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  width: fit-content;
+  transition: background-color 0.3s;
+}
+
+.equipment-form button:hover {
+  background-color: #2980b9;
+}
+
+.equipment-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.equipment-table thead {
+  background-color: #3498db;
+  color: white;
+}
+
+.equipment-table th {
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.equipment-table td {
+  padding: 12px;
+  border-top: 1px solid #dee2e6;
+}
+
+.equipment-table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.equipment-table .actions {
+  display: flex;
+  gap: 10px;
+}
+
+.equipment-table button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s;
+}
+
+.equipment-table button.edit-btn {
+  background-color: #f39c12;
+  color: white;
+}
+
+.equipment-table button.edit-btn:hover {
+  background-color: #e67e22;
+}
+
+.equipment-table button.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.equipment-table button.delete-btn:hover {
+  background-color: #c0392b;
+}
