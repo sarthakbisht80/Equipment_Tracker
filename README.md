@@ -6,7 +6,7 @@ monitor, and organize equipment data with a clean UI and a scalable backend.
 </p>
 
 <p align="center">
-  <img src="/frontend/public/Dashboard.png" alt="Equipment Tracker Screenshot" height="400" width="400" />
+  <img src="/Frontend/public/Dashboard.png" alt="Equipment Tracker Screenshot" height="400" width="400" />
 </p>
 
 ---
@@ -86,5 +86,6 @@ npm run dev
 ## 🔗 Links
 - [Live] 
 - [Contact Me](bishtsarthak80@gmail.com)
+
 
 
