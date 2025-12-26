@@ -12,10 +12,11 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+
 app.use("/api/equipment", equipmentRoutes);
 
 app.get("/", (req, res) => {
-  res.send("Equipment Tracker API Running");
+  res.json({ message: "Equipment Tracker API Running" });
 });
 
 const PORT = process.env.PORT || 5000;
