@@ -85,8 +85,9 @@ npm run dev
 
 ## 🔗 Links
 - [Live] https://equipment-tracker-la1.vercel.app
-- [Backend Deployed]-https://equipment-tracker-1-ffwf.onrender.com
+- [Backend Deployed]-https://equipment-tracker-3.onrender.com/api/equipment
 - [Contact Me](bishtsarthak80@gmail.com)
+
 
 
 
