@@ -84,8 +84,9 @@ npm run dev
 ```
 
 ## 🔗 Links
-- [Live] 
+- [Live] https://equipment-tracker-la1.vercel.app/
 - [Contact Me](bishtsarthak80@gmail.com)
+
 
 
 
